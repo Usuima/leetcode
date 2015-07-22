@@ -15,7 +15,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     p3=l3;
     while(p1!=NULL||p2!=NULL)
     {
-        sum/=10;
+        sum/=10;/*用来处理进位*/
         if(p1!=NULL)
         {
             sum+=p1->val;
