@@ -1,6 +1,6 @@
 /**
-排序，
-对于每一个元素，查找是否有另外两个数相加等于0-nums[i]
+*排序，
+*对于每一个元素，查找是否有另外两个数相加等于0-nums[i]
 */
 public class Solution{
 	public List<List<Integer>> threeSum(int[] nums){
